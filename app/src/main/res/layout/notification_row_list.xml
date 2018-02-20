@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/d5"
+            android:layout_marginRight="@dimen/d5"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/schoolnotif" />
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtNotification"
+                    style="@style/TextViewsDefault"
+                    android:paddingBottom="@dimen/d5"
+                    android:paddingTop="@dimen/d5"
+                    android:text="Notification"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/TextViewsDefault"
+                    android:paddingTop="@dimen/d2"
+                    android:text="This is a text.This is a text." />
+
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/ivDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/close_icon"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/d5"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
