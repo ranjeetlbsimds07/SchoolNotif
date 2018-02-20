@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SchoolNotifBoard</string>
+    <string name="Please_wait">Please Wait...</string>
 </resources>
